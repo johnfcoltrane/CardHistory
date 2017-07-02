@@ -25,3 +25,4 @@ echo *******************************
 pause
 call all.bat
 pause
+call commit_push.bat
