@@ -25,4 +25,5 @@ echo *******************************
 pause
 call all.bat
 pause
-call commit_push.bat
+rem call commit_push.bat
+start CardHistoryPush.lnk
