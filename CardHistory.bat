@@ -10,7 +10,9 @@ echo. 履歴保存先がクリップボードにコピーされています。
 echo *******************************
 echo ** PASMOをセット→履歴を保存 **
 echo *******************************
-pause
+rem pause
+YesNo.vbs "PASMOをセット→履歴を保存"
+if %errorlevel%==0 exit/b
 call all.bat
 :suica
 echo ***********
@@ -22,7 +24,9 @@ echo. 履歴保存先がクリップボードにコピーされています。
 echo *******************************
 echo ** SUICAをセット→履歴を保存 **
 echo *******************************
-pause
+rem pause
+YesNo.vbs "SUICAをセット→履歴を保存"
+if %errorlevel%==0 exit/b
 call all.bat
 pause
 rem call commit_push.bat
