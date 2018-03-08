@@ -28,6 +28,7 @@ rem pause
 YesNo.vbs "SUICA‚ğƒZƒbƒg¨—š—ğ‚ğ•Û‘¶"
 if %errorlevel%==0 exit/b
 call all.bat
+call edy.bat
 pause
 rem call commit_push.bat
 start CardHistoryPush.lnk
